@@ -1,0 +1,18 @@
+CONSOLE WARNING: crbug.com/435623334: This page uses XSLT, which being considered for removal from the web. If that happens, it is possible that this page will need to be updated to maintain functionality.
+Test constructors for classes in Window
+
+On success, you will see a series of "PASS" messages, followed by "TEST COMPLETE".
+
+PASS Audio.prototype.toString.call(new Audio) is '[object HTMLAudioElement]'
+PASS Image.prototype.toString.call(new Image) is '[object HTMLImageElement]'
+PASS Option.prototype.toString.call(new Option) is '[object HTMLOptionElement]'
+PASS WebKitCSSMatrix.prototype.toString.call(new WebKitCSSMatrix) is 'matrix(1, 0, 0, 1, 0, 0)'
+PASS WebKitCSSMatrix.prototype.toString.call(new WebKitCSSMatrix()) is 'matrix(1, 0, 0, 1, 0, 0)'
+PASS new WebKitCSSMatrix(null) threw exception SyntaxError: Failed to construct 'DOMMatrix': Failed to parse 'null'..
+FAIL new WebKitCSSMatrix(undefined) should throw an exception. Was matrix(1, 0, 0, 1, 0, 0).
+PASS XMLHttpRequest.prototype.toString.call(new XMLHttpRequest) is '[object XMLHttpRequest]'
+PASS XSLTProcessor.prototype.toString.call(new XSLTProcessor) is '[object XSLTProcessor]'
+PASS successfullyParsed is true
+
+TEST COMPLETE
+

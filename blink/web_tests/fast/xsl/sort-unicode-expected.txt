@@ -1,0 +1,19 @@
+CONSOLE WARNING: crbug.com/435623334: This page uses XSLT, which being considered for removal from the web. If that happens, it is possible that this page will need to be updated to maintain functionality.
+lower-first
+Title	Artist
+abbies title	a
+Angies Title	A
+brents Title	b
+Brads Title	B
+ye	е
+yo	ё
+zh	ж
+upper-first
+Title	Artist
+Angies Title	A
+abbies title	a
+Brads Title	B
+brents Title	b
+ye	е
+yo	ё
+zh	ж
